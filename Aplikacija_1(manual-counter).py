@@ -1,6 +1,6 @@
 '''
 Kreirati aplikaciju koja sadrzi dva dugmeta.
-Jedno dugme klikom omogucava dodavanje jednog boda na ekran,dok drugo dugme oduzima boda sa ekrana.
+Jedno dugme klikom omogucava dodavanje jednog boda na ekran,dok drugo dugme oduzima bod sa ekrana.
 '''
 
 import tkinter as tki
@@ -71,3 +71,4 @@ window_y = int((screen_height/2) - (window_height/2))
 window.geometry(f"{window_width}x{window_height}+{window_x}+{window_y}")
 
 window.mainloop()
+
